@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8>">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1 id="title">Naresh i technologies Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+
+        <form id="survey-form">
+
+            <fieldset>
+                <label id="name-label">Name
+                    <input type="text" id="name" placeholder="Enter you name" required></label>
+
+                <label id="email-label">Email
+                    <input type="email" id="email" placeholder="Enter you Email" required></label>
+
+                <label id="number-label">Age(optional)
+                    <input type="number" id="number" min="18" max="30" placeholder="Age">
+                </label>
+            </fieldset>
+
+            <fieldset >
+                <label for="dropdown" id="bottom">Which option best describes your experience in Nit?
+                    <select id="dropdown">
+                        <option value="">select here..</option>
+                        <option value="Good">Good</option>
+                        <option value="Fine">Fine</option>
+                        <option value="Outstanding">Outstanding</option>
+                        <option value="None">None</option>
+                    </select>
+                </label>
+
+                <label>Would you recommend Naresh it to a friend?</label>
+                <label for="21">
+                    <input type="radio" id="21" name="btn" value="11" class="inline">Definatelly</label>
+                <label for="22">
+                    <input type="radio" id="22" name="btn" value="22" class="inline">May be</label>
+                <label for="23">
+                    <input type="radio" id="23" name="btn" value="33" class="inline">Not Sure
+                </label>
+            </fieldset>
+
+           
+
+                <label for="tarea" class="tarea">Any Comments or Suggetions?<textarea
+                        id="tarea" rows="3" cols="3">Enter your comment here...</textarea></label>
+            </Fieldset>
+
+            <button type="submit" id="submit">
+                Submit </button>
+
+                <a href="https://nareshit.in/" target="_blank">Visit Naresh i technologies</a>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
